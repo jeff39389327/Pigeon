@@ -3,7 +3,7 @@
 > $$About
 
 
-Automating Riichi City Mahjong Game with Python and YOLOv8
+Automating Riichi City Mahjong Game with Full Image Recognition Using Python and YOLO
 
 ##  Usage
 
