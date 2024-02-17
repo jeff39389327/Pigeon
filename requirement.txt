@@ -1,0 +1,9 @@
+torch
+ultralytics
+opencv-python==4.8.0.74
+protobuf==3.19.0
+numpy
+Pillow
+pyautogui
+threading
+configparser
