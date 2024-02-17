@@ -5,7 +5,7 @@
 
 Automating Riichi City Mahjong Game with Full Image Recognition
 
-[Any question?Find me on Discord]([http://dillinger.io/](https://discord.gg/aTwhuds3hX) "link")
+[Any question?Find me on Discord](https://discord.gg/aTwhuds3hX "link")
 
 ##  Usage
 
