@@ -1,0 +1,9 @@
+# 這是數據集的配置文件
+path:  C:\Users\M1lk\Desktop\richi  # 數據集的根目錄
+train: train/accept  # 訓練數據集的路徑
+val: test/accept    # 驗證/測試數據集的路徑
+nc: 1        # 類別的數量
+
+# 類別的列表
+names:
+  0: accept

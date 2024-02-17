@@ -1,0 +1,28 @@
+# 這是數據集的配置文件
+path:  C:\Users\M1lk\Desktop\richi  # 數據集的根目錄
+train: train/acts  # 訓練數據集的路徑
+val: test/acts    # 驗證/測試數據集的路徑
+nc: 8        # 類別的數量
+
+# 類別的列表
+names:
+  0: skip
+  1: ron
+  2: tsumo
+  3: pon
+  4: eat
+  5: north
+  6: kan
+  7: richi
+augment:
+  # ?像翻?
+  flipud: 0.5  # 上下翻?的概率
+  fliplr: 0.5  # 左右翻?的概率
+  # ?像?放
+  scale: 0.5
+  # 旋?
+  rotate: 45
+  # ?色抖?
+  hsv_h: 0.015  # 色??化
+  hsv_s: 0.7  # ?和度?化
+  hsv_v: 0.4  # 明度?化
