@@ -35,11 +35,14 @@ The position defaults are based on a 1366x768 fullscreen resolution, with Simpli
 
 The first match requires manual pairing.
 
+
+You need to enable automatic winning of hands in each mini-game through the game settings.
+
 ##  Questions and Answers
 
-Q: Why does it only perform Kokushi Musou?
+Q: Why is this AI so weak?
 
-A: Currently, traditional algorithms are utilized in decide_card_to_play.py.
+A: This is certain; it is currently underdeveloped based on traditional algorithms, and will subsequently be integrated with deep learning models.
 
 
 
