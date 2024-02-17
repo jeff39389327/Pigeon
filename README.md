@@ -28,16 +28,17 @@ pip install -r requirements.txt
 python run.py
 ```
 
-2.The position defaults are based on a 1366x768 fullscreen resolution, with Simplified Chinese settings.
+The position defaults are based on a 1366x768 fullscreen resolution, with Simplified Chinese settings.
 
 
-3.The first match requires manual pairing.
+The first match requires manual pairing.
 
 ##  Questions and Answers
 
 Q: Why does it only perform Kokushi Musou?
 
 A: Currently, traditional algorithms are utilized in decide_card_to_play.py.
+
 
 
 Q: Will it result in account suspension?
