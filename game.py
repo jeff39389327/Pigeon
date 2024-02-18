@@ -216,7 +216,7 @@ def recognize_hand_after_delay(model, region, delay, max_attempts=3):
             
             start_matchconfirm_thread()
             print("rank match") 
-            game_active_event.clear()
+            
             
             
     
@@ -263,9 +263,8 @@ def detect_accept_button(model, region, event):
 
                 break  # 跳出for迴圈，重新開始偵測按鈕
 
-        # 如果事件被清除，則結束線程
-        if not event.is_set():
-            break
+       
+
 
         time.sleep(1)  # 短暫休息後繼續偵測按鈕
 
@@ -285,12 +284,7 @@ def accept_acts_thread():
     act="skip"
     accept_acts_thread = threading.Thread(target=detect_acts_button, args=(acts_model, acts_region, act,game_active_event))
     accept_acts_thread.start()
-# 停止偵測接受按鈕的線程
-def stop_accept_button_thread():
-    game_active_event.clear()  # 清除事件
-def resume_accept_button_thread():
-    # 重新開始偵測接受按鈕的線程
-    game_active_event.set()  # 這會讓線程恢復活動
+
 
 def detect_acts_button(model, region, act_name,event):
     while True:
@@ -340,7 +334,7 @@ def detect_matchconfirm_button(model, region, event):
                 print("Match confirm button detected.")
                 click_for_new_game()
                 print("Match confirm button click.")
-                event.clear() 
+                 
                 return  
 
         time.sleep(1)  

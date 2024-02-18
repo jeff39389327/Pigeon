@@ -52,6 +52,7 @@ A: This is based on image recognition, so if you're worried, don't use it. If yo
 
 ##  TODO
 
-1.Connected to the Mortal deep learning algorithm model
+1.Handling image recognition for the discards and actions of other players.("I have no idea.")
 
-2.Handling image recognition for the discards and actions of other players.
+
+2.Connected to the Mortal deep learning algorithm model
