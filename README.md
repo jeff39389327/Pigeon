@@ -11,7 +11,7 @@ Automating Riichi City Mahjong Game with Full Image Recognition
 
 ```
 Python  3.1.0
-CUDA 12.1
+CUDA 12.1(To achieve faster execution, it's necessary to install CUDA)
 ```
 
 
