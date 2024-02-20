@@ -45,10 +45,16 @@ Q: Why is this AI so weak?
 A: This is certain; it is currently underdeveloped based on traditional algorithms, and will subsequently be integrated with deep learning models.
 
 
+Q: How to change the matchmaking room?
+
+A: Use check.py to determine the top-left and bottom-right positions, then fill them in game.py (#rank NE_region).
+
 
 Q: Will it result in account suspension?
 
 A: This is based on image recognition, so if you're worried, don't use it. If you decide to use it, don't worry.
+
+
 
 ##  TODO
 

@@ -19,7 +19,7 @@ matchconfirm_model= YOLO('rk_best.pt')
 accept_region = (1624, 939, 240, 97)  # 接受按钮区域
 region = (243, 906, 1521, 155)        # 手牌区域
 acts_region = (439, 774, 1103, 115)       # 吃碰剛和區域
-#rank NE_region【
+#rank NE_region
 left_top = (1129, 460)
 right_bottom = (1408,529)
 #rank NS_region

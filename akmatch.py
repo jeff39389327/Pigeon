@@ -16,26 +16,33 @@ right_bottom = (1355, 397)
 #rank3e _region
 
 
-e3_left_top = (983, 677)  #SLIVER3 east
-e3_right_bottom = (1306, 727)
+# e3_left_top = (983, 677)  #SLIVER3 east
+# e3_right_bottom = (1306, 727)
 
-# e3_left_top = (988, 532)#jade4south
-# e3_right_bottom = (1296, 594)
+
+# e3_left_top = (992, 826)  #SLIVER3 south
+# e3_right_bottom = (1280, 827)
+
+# e3_left_top = (987, 811)  #gold3 south
+# e3_right_bottom = (1290, 834)
+
+e3_left_top = (988, 532)#jade4south
+e3_right_bottom = (1296, 594)
 #rankbz _region
 
 
 # bz_regionleft_top = (972, 396)
 # bz_regionright_bottom = (1347, 464)
 
-bz_regionleft_top = (983, 531)  #SLIVER
-bz_regionright_bottom = (1303, 590)
+# bz_regionleft_top = (983, 531)  #SLIVER
+# bz_regionright_bottom = (1303, 590)
 
 
 # bz_regionleft_top = (1003, 669)  #GOLD
 # bz_regionright_bottom = (1300, 729)
 
-# bz_regionleft_top = (986, 817)  #jade
-# bz_regionright_bottom = (1301, 838)
+bz_regionleft_top = (986, 817)  #jade
+bz_regionright_bottom = (1301, 838)
 #rank NS_region
 
 

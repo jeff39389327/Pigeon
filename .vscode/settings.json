@@ -1,0 +1,6 @@
+{
+    "commentTranslate.source": "kitiho.chatgpt-comment-translate-chatgpt",
+    "commentTranslate.targetLanguage": "en",
+    "commentTranslate.hover.enabled": true,
+    "commentTranslate.multiLineMerge": false
+}
