@@ -89,7 +89,7 @@ def recognize_hand_cards(model, region, id_to_card):
     time.sleep(1)
     screenshot = pyautogui.screenshot(region=region)
     screenshot_image = Image.fromarray(np.array(screenshot)[..., :3])
-    screenshot_image.save("a.jpg")
+    
     
     results = model(screenshot_image, conf=0.8)
     for result in results:
@@ -242,7 +242,7 @@ def detect_accept_button(model, region, event):
         time.sleep(1)
         screenshot = pyautogui.screenshot(region=region)
         screenshot_image = Image.fromarray(np.array(screenshot)[..., :3])
-        screenshot_image.save("a1.jpg")
+        
         results = model(screenshot_image)
         
         for result in results:
@@ -293,7 +293,7 @@ def detect_acts_button(model, region, act_name,event):
         x_start, y_start, width, height = region
         screenshot = pyautogui.screenshot(region=region)
         screenshot_image = Image.fromarray(np.array(screenshot)[..., :3])
-        #screenshot_image.save("a.jpg")
+        
 
         results = model(screenshot_image, conf=0.7)
         for result in results:
