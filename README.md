@@ -20,7 +20,7 @@ CUDA 12.1(To achieve faster execution, it's necessary to install CUDA)
 
 
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ## How to Use
