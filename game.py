@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from decide_card_to_play import decide_card_based_on_pattern
+from decide_card_to_play import decide_card_based_on_pattern_with_strategy
 import pyautogui
 import numpy as np
 from PIL import Image
@@ -65,8 +65,8 @@ def run_game():
         # 判断手牌数
         if len(hand) >= 14:
             # 根據全牌效判斷並決定該出哪張牌
-            card_name = decide_card_based_on_pattern(hand)
-            
+            strategy_used, card_name = decide_card_based_on_pattern_with_strategy(hand)
+            print(f"對於手牌 {hand}，使用策略 {strategy_used}，建議丟棄的牌是：{card_name}")
             # 取最后一张牌的名字 
             #card_name = "4p"  
         

@@ -25,9 +25,10 @@ right_bottom = (1355, 397)
 
 # e3_left_top = (987, 811)  #gold3 south
 # e3_right_bottom = (1290, 834)
-
-e3_left_top = (988, 532)#jade4south
-e3_right_bottom = (1296, 594)
+e3_left_top = (999, 536)  #gold4 south
+e3_right_bottom = (1279, 587)
+# e3_left_top = (988, 532)#jade4south
+# e3_right_bottom = (1296, 594)
 #rankbz _region
 
 
@@ -38,11 +39,11 @@ e3_right_bottom = (1296, 594)
 # bz_regionright_bottom = (1303, 590)
 
 
-# bz_regionleft_top = (1003, 669)  #GOLD
-# bz_regionright_bottom = (1300, 729)
+bz_regionleft_top = (1003, 669)  #GOLD
+bz_regionright_bottom = (1300, 729)
 
-bz_regionleft_top = (986, 817)  #jade
-bz_regionright_bottom = (1301, 838)
+# bz_regionleft_top = (986, 817)  #jade
+# bz_regionright_bottom = (1301, 838)
 #rank NS_region
 
 
