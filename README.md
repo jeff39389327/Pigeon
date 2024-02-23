@@ -30,7 +30,7 @@ pip install -r requirement.txt
 python run.py
 ```
 
-The position defaults are based on a 1366x768 fullscreen resolution, with Simplified Chinese settings.
+The default positions are set for a fullscreen resolution of 1366x768, with the settings in Simplified Chinese, and a zoom scale of 125% .
 
 
 The first match requires manual pairing.
