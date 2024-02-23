@@ -5,6 +5,8 @@
 
 Riichi City Mahjong Game with Full Image Recognition
 
+The goal of this project is to offer people a convenient way to instantly see how they're doing in game competitions and to explore the feasibility of image recognition with existing Mahjong games, helping them learn and improve from this insight. This project is meant purely for educational and experimental purposes, and the creator assumes no responsibility for any actions taken by its users. Any consequences like account suspension due to abnormal behavior detection by the official Mahjong community are not the responsibility of the author.
+
 [Any question?Find me on Discord](https://discord.gg/aTwhuds3hX "link")
 
 ##  Usage
